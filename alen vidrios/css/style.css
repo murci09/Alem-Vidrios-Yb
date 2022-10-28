@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "maven_proregular", Arial, Helvetica;
+    
+}
+.navbar {
+    display: block;
+}
+
+
+a.nav-link{
+    font-size: 22px;
+}
+
+.container-fluid {
+    padding-left: 10rem;
+}
+.año {
+    background-color: white;
+    color: rgb(13, 119, 206);
+    width: 10rem;
+    margin-left: 3rem;
+    border-radius: 5%;
+    box-shadow:   5px 0 rgb(255, 255, 255);
+    font-weight: 600;
+
+    
+}
+
+div.text  {
+    color: black;
+height: 8 00px;
+padding-top: 10rem;
+}
+
+
+.descrip {
+    text-align: center;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.nav-link {
+color: white;
+font-weight: 600;
+
+}   
+
+
+nav.navbar img {
+    width: 200px;
+    border-radius: 10%;
+    
+
+}
+nav {   
+    background-image: url(https://www.cristaleriamadrid.es/uploads/blog/cristales-especiales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   height: 60rem;
+   
+
+}
+
+body {
+    height: 100rem;
+}
+
+
+/* a.dropdown-item {
+    color: white;
+} */
+.dropdown-menu {
+    background-image: linear-gradient(-90deg, rgba(123, 230, 230, 0.479), rgba(0, 17, 250, 0.432));
+}
+
+@media screen and (max-width:700px) {
+    .descrip {
+        font-size: 35px;
+       padding-top: 3rem;
+       padding-bottom: 3rem;
+       box-shadow: none;
+       border-bottom: 1px solid black;
+       border-top: 1px solid black;
+     
+    
+    }
+    .container-fluid {
+        padding-left: 1rem;
+    }
+   .link {
+    background-color: white;
+    border-radius: 8%;
+    padding-left: 0.5rem;
+    
+    
+   }
+   .nav-link {
+    color: black;
+  }
+  .text {
+    padding-top: 3rem;
+  }
+  .año {
+    width: 130px
+  }
+  
+  }
